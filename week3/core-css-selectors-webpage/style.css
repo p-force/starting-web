@@ -1,0 +1,40 @@
+/*по тэгу*/
+
+/*id не может повторяться*/
+#logo img {
+    color:rgb(255, 145, 0);
+    border: 25px solid #fafafa;
+    margin: 15px 25px 10px 3px;
+}
+
+h2 {
+    font-size: 30px;
+    color:rgb(199, 163, 225);
+    text-shadow: rgb(216, 124, 255) 1px 0 10px;
+    line-height: 0.9em;
+}
+
+p i {
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(174, 11, 90), 0 0 0.2em rgb(103, 0, 248);
+}
+/*class может быть несколько блоков в html*/
+.contents {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    margin: 15px -25px 10px -25px;
+    /* background-color: burlywood; */
+}
+
+div {
+    color: rgb(30, 78, 166);
+    margin-left: 15px;
+}
+
+/*универсальный селектор*/
+* {
+    font-size: 17px;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/d6/46/e3/d646e322e42db52554bd09c574f600b3.jpg");
+    background-size:2000px 1245px;
+}

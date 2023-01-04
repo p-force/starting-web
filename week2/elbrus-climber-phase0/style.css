@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+}
+
+.mountain {
+    width: 1430px;
+    height: 671px;
+}
+.climber {
+    width: 40px;
+    height: 61px;
+    position: relative;
+    top: 630.8px;
+    left: 200px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#one {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 660px; left: 194px;
+    width: 40px;
+    box-shadow: 1px 1pfx rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}
+#three {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 435px; left: 304px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}
+#four {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 315px; left: 484px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}
+#five {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 190px; left: 594px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}
+#six {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 335px; left: 744px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 1em rgb(5, 70, 70);
+}
+
+#seven {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 455px; left: 844px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}
+#eight {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 300px; left: 974px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}
+#nine {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 215px; left: 1144px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+    
+}
+#ten {
+    border: 1.5px solid teal;
+    position: relative;
+    top: 135px; left: 1054px;
+    width: 40px;
+    box-shadow: 1px 1px rgba(7, 115, 115, 0.169), 1em 0 .6em rgb(5, 70, 70);
+}

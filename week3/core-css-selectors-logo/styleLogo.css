@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+}
+
+div {
+    position: absolute;
+    top: 1%;
+    left: 25%;
+    width: 45%;
+    height: 93%;
+}
+
+.tri1 {
+    clip-path: polygon(31% 56%, 17% 60%, 30% 33%);
+    background: #67a0c9;
+}
+
+.tra2 {
+    clip-path: polygon(17% 60%, 31% 56%, 50% 78%, 31% 92%);
+    background: #4990c2;
+}
+
+.tri3 {
+    clip-path: polygon(50% 78%, 31% 92%, 34% 96%);
+    background: #195580;
+}
+
+.tra4 {
+    clip-path: polygon(30% 56%, 78% 77%, 76% 82%, 50% 78%);
+    background: #217fc3;
+}
+
+.tri5 {
+    clip-path: polygon(30% 56%, 78% 77%, 60% 58%);
+    background: #a1c1d7;
+}
+
+.tra6 {
+    clip-path: polygon(60% 58%, 65% 58%, 83% 77%, 78% 77%);
+    background: #0f7bc896;
+}
+
+.tri7 {
+    clip-path: polygon(76% 82%, 83% 77%, 78% 77%);
+    background: #015692;
+}
+
+.tri8 {
+    clip-path: polygon(30% 56%, 59% 50%, 60% 58%);
+    background: #62859e;
+}
+
+.tra9 {
+    clip-path: polygon(59% 50%, 66% 51%, 65% 58%, 60% 58%);
+    background: #486b85cf;
+}
+
+.tra10 {
+    clip-path: polygon(42% 31%, 50% 33%, 66% 51%, 59% 50%);
+    background: #03263f;
+}
+
+.tri11 {
+    clip-path: polygon(30% 56%, 59% 50%, 42% 31%);
+    background: #7597af;
+}
+
+.tri12 {
+    clip-path: polygon(30% 56%, 30% 33%, 50% 4%);
+    background: #91a9bb;
+}
+
+.tri13 {
+    clip-path: polygon(30% 56%, 42% 31%, 50% 4%);
+    background: #3874c2;
+}
+
+.tri14 {
+    clip-path: polygon(50% 33%, 42% 31%, 69% 12%);
+    background: #6392cfc1;
+}
+
+.tri15 {
+    clip-path: polygon(59% 43%, 50% 33%, 69% 12%);
+    background: #b1c3db;
+}

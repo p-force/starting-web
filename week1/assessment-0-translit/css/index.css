@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(4, 4, 171);
+}
+
+.inputBlock {
+    display: inline-flex;
+    border: 3px solid rgb(232, 109, 0);
+    border-radius: 8px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: rgb(232, 109, 9);
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 
+    0 0 .1rem #fff,
+    0 0 .2rem rgb(255, 215, 169),
+    0 0 .3rem rgb(255, 128, 0),
+    0 0 .8rem rgb(255, 119, 0),
+    0 0 1rem rgb(255, 102, 0),
+    inset 0 0 1.3rem rgb(255, 89, 0); 
+}
+
+input, button {
+    border-radius: 5px;
+    margin: 14px;
+    padding: 5px 5px 5px 5px; /*отступы внутри объекта*/
+    text-align: center;
+    
+}
+
+input {
+    background-color: rgb(250, 220, 181);
+    font-size: 14px;
+    color: rgb(0, 26, 255);
+  text-shadow:
+    /* белый свет */
+    0 0 1px rgb(253, 253, 253),
+    0 0 2px rgb(40, 69, 233),
+    0 0 5px rgb(117, 136, 244),
+    /* зеленый свет */
+    0 0 11px rgb(202, 207, 255),
+    0 0 20px rgb(145, 153, 241),
+    0 0 30px rgb(107, 123, 244),
+    0 0 55px rgb(83, 99, 240),
+    0 0 80px rgb(34, 55, 242);
+}
+
+button {
+    animation: flicker 1.5s infinite alternate;   
+    color: rgb(254, 105, 12);   
+    font-size: 16px; 
+}
+
+@keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 1px rgb(255, 255, 255),
+        0 0 2px rgb(246, 226, 147),
+        0 0 5px rgb(228, 168, 18),
+        0 0 11px rgb(228, 186, 18),
+        0 0 20px rgb(228, 151, 18),
+        0 0 30px rgb(228, 186, 18),
+        0 0 55px rgb(228, 186, 18),
+        0 0 80px rgb(255, 255, 255);
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
+.outputBoxWord, .outputBoxTranslit{
+    height: 550px;
+    width: 400px;
+    border: 5px solid rgb(255, 115, 0);
+    background-color: rgb(255, 153, 0);
+    font-size: 20px;
+    box-shadow: 
+      0 0 .1rem #fff,
+      0 0 .2rem rgb(255, 192, 119),
+      0 0 .3rem rgb(255, 128, 0),
+      0 0 .8rem rgb(255, 119, 0),
+      0 0 1rem rgb(255, 102, 0),
+      inset 0 0 1.3rem rgb(255, 89, 0); 
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.blockOut {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.neon-text {
+    color: rgb(254, 254, 254);
+    text-shadow:
+      0 0 1px rgb(142, 155, 251),
+      0 0 2px rgb(104, 88, 252),
+      0 0 5px rgb(118, 136, 253),
+      0 0 11px rgba(0, 26, 255, 0.759),
+      0 0 20px rgb(63, 146, 255),
+      0 0 30px rgba(53, 73, 255, 0.699),
+      0 0 55px rgba(27, 49, 252, 0.581),
+      0 0 80px rgba(0, 26, 255, 0.61);
+  }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+.inputBlock {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+}
+
+@media screen and (max-width: 767px) {
+.inputBlock {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+}
